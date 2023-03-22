@@ -123,7 +123,9 @@ def writedata(final_list):
 
 def print_stdout(final_list):
     
+    #Choosing length of 30 as this prints out all variables to std out with a equal space between them.
     length=30
+
     #':<' specifies that the string should be left justifiedand the number specified the length
     print(f'{"user_id":<{length}}',f'{"first_name":<{length}}',f'{"last_name":<{length}}',f'{"answer_1":<{length}}',f'{"answer_2":<{length}}',f'{"answer_3":<{length}}',)
 

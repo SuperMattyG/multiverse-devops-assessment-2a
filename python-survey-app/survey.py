@@ -17,14 +17,14 @@ def main():
     
     if filename != 'clean_results.csv':
         file_exists(filename) # Check if file exists
-        final_list = get_input(filename)
-        capitalized_list = capitalize_names(final_list)
+        initial_list = get_input(filename)
+        capitalized_list = capitalize_names(initial_list)
         validated_list = validate(capitalized_list)
         writedata(validated_list)
     else:
         file_exists(filename) # Check if file exists
-        final_list = get_input(filename)
-        print_stdout(final_list)
+        initial_list = get_input(filename)
+        print_stdout(initial_list)
 
     
 if __name__ == '__main__':
