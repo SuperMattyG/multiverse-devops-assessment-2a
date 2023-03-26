@@ -1,5 +1,4 @@
 #Uneeded Files for the Repo
-.github/workflows/terraform-destroy.yaml
 mvtools/terraform-iac/.terraform.lock.hcl
 mvtools/terraform-iac/.terraform/
 
